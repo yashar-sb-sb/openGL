@@ -84,8 +84,8 @@ def main():
         for i in range(3):
           k = [[ver[i][0]],[ver[i][1]],[ver[i][2]]]
           k = mult([
-            [math.cos(45/180*math.pi),math.sin(45/180*math.pi),0],
-            [-math.sin(45/180*math.pi),math.cos(45/180*math.pi),0],
+            [1,0,0],
+            [0,1,0.2],
             [0,0,1]],k)
           ver[i][0] = k[0][0]
           ver[i][1] = k[1][0]
